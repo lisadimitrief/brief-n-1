@@ -1,0 +1,686 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+#menu
+{
+    display: none;
+}
+#feuille_1
+{
+    background: url("img/banner_bg.jpg");
+    width: 100%;
+    height: 50em;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2em 0 2em;
+    font-size: 1.3em;
+}
+
+.gr
+{
+    font-size: 1.3em;
+    color: #fac35c;
+}
+
+.label
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    width: 35em;
+}
+
+#feuille_1 article
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 6em;
+    height: 35%;
+}
+
+h2
+{
+    font-size: 2.5em;
+}
+
+.bleu
+{
+    color: #228dff;
+}
+
+.orange
+{
+    color: #fac35c!important;
+}
+
+.text_feuille-1
+{
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.start
+{
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+}
+
+.feuille_2
+{
+    background: url("img/about-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 50em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feuille_2 article
+{
+    padding-top: 9em;
+    padding-bottom: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3
+{
+    font-size: 1.5em;
+}
+
+.cadre-icones
+{
+    background: rgb(246, 196, 92);
+    border: #fafafa 3px solid;
+    border-radius: 100%;
+    padding: 2em;
+}
+.icones
+{
+    width: 4em;
+    height: auto;
+    margin: auto;
+}
+.h_icones
+{
+    margin-bottom: -1em;
+}
+.p_icones
+{
+    border-top: #fafafa 2px solid;
+    padding-top: 2em;
+}
+p
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+.read
+{
+    background: rgb(61, 193, 205);
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    padding: 1.5em;
+}
+.feuille_3
+{
+    background: rgb(247, 247, 247);
+    height: 60em;
+    display: flex;
+    align-items: center;
+}
+.galery
+{
+    background: rgb(61, 193, 205);
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.galery div
+{
+    margin-left: 4em;
+}
+.h_gallery
+{
+    margin-top: -1em;
+    margin-bottom: 1em;
+    width: 75%;
+    border-bottom: #fafafa 1px solid;
+}
+.p_gallery
+{
+    font-weight:lighter;
+    text-align: left;
+    margin-right: 2em;
+}
+.nav_2
+{
+    margin-top: 4em;
+    height: 20em;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.img_mosaique
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5.5em;
+}
+.mosaique
+{
+    width: 25em;
+    height: auto;
+}
+
+.feuille_4
+{
+    height: 30em;
+    background: rgb(246, 196, 92);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feuille_4 p
+{
+    background: #fafafa;
+    color: rgb(170, 170, 170);
+    padding: 1em;
+    padding: 2em 2em;
+    font-style: italic;
+    border-radius: 11px;
+}
+.feuille_4 h3
+{
+    margin-top: 1em;
+}
+.css
+{
+    font-size: 1em;
+}
+.rond
+{
+    width: 5em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.fa-circle
+{
+    font-size: 0.5em;
+    height: auto;
+    opacity: 0.5;
+}
+.fa-circle:last-child
+{
+    opacity: 1;
+}
+
+.feuille_5
+{
+    background: url("img/blog-bg.jpg") no-repeat;
+    background-size: cover;
+    height: 49.2em;
+    display: flex;
+}
+.our_blog
+{
+    background: rgba(0, 0, 0, 0.6);
+    width: 35%;
+    height: 49.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog
+{
+    width: 79%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.our_blog h3
+{
+    width: 80%;
+    border-bottom: #fafafa 1px solid;
+    padding-bottom: 0.5em;
+}
+.our_blog p
+{
+    margin-top: 1em;
+    text-align: justify;
+}
+.blog h4
+{
+    margin-top: 3em;
+    background: #fafafa;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.lorem
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+}
+.article
+{
+    display: flex;
+    flex-direction: column;
+}
+.lorem img
+{
+    
+    width: 60em;
+    height: auto;
+    margin-top: 7em;
+}
+.lorem .text
+{
+    background: #fafafa;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 60em;
+    height: 11em;
+}
+.lorem .text h4, .lorem .text a, .lorem .text p
+{
+    color: black;
+    text-align: left;
+}
+.lorem .text h4
+{
+    margin-top: 1em;
+    font-size: 1.1em;
+    color: black;
+}
+.lorem .text a
+{
+    color: rgb(113, 210, 218);
+    font-size: 0.9em;
+}
+
+.lorem .text p
+{
+    margin-top: 0.7em;
+    opacity: 0.6;
+}
+
+.feuille_6
+{
+    height: 30em;
+    background: rgb(89, 96, 101);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feuille_6 div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.feuille_6 h3
+{
+    border-bottom: #fafafa 1px solid;
+    padding-bottom: 2em;
+    width: 20%;
+    text-align: center;
+}
+.feuille_6 p
+{
+    font-size: 1.5em;
+    margin: 2em 2em;
+}
+.send
+{
+    background: rgb(61, 193, 205);
+    border: none;
+    padding: 0.9em;
+    font-size: 1.2em;
+    border-radius: 5em;
+}
+
+footer
+{
+    background: rgb(56, 59, 60);
+    display: flex;
+    flex-direction: column;
+    height: 59em;
+}
+
+/* map */
+.mapouter
+{
+    /* position:relative; */
+    text-align:right;
+    /* height:500px; */
+}
+.gmap_canvas 
+{
+    overflow:hidden;
+    background:none!important;
+    height:45em;
+}
+
+.bas
+{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .copyright
+{
+} */
+.copyright h3
+{
+    font-size: 2.2em;
+    margin-bottom: 0.3em;
+}
+.normal
+{
+    font-weight: lighter;
+    font-size: 1em;
+}
+.bold
+{
+    font-weight: 550;
+}
+.location
+{
+    display: flex;
+    flex-direction: column;
+}
+.location h3
+{
+    margin-bottom: 1em;
+}
+.adresse 
+{
+    display: flex;
+}
+.adresse 
+{
+    display: flex;
+    align-items: flex-start;
+}
+.adresse p
+{
+    text-align: left;
+}
+
+.adresse p:first-child
+{
+    border-right: #fafafa 1px solid;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+.more h3
+{
+    margin-bottom: 1em;
+}
+.more p
+{
+    text-align: left;
+}
+.more p span
+{
+    font-weight: 550;
+}
+.reseau
+{
+    width: 20em;
+}
+.reseau h3 
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.social
+{
+    display: flex;
+    justify-content: space-between;
+}
+.social div
+{
+    border: none;
+    background: #fafafa;
+    width: 1em;
+    height: 1em;
+    padding: 1em;
+    border-radius: 100em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social div i
+{
+    color: rgb(56, 59, 60);
+    font-size: 2em;
+}
+
+
+
+@media screen 
+{
+    .menu, .secondbutton
+    {
+        display: none;
+    }   
+}
+@media screen and (max-width: 720px)
+{
+
+    /*section 1 */
+    h1
+    {
+        margin-left: -1em;
+    }
+    .label
+    {
+        display: none;
+    }
+    .menu 
+    {
+        display: block;
+        width: 3em;
+        margin-top: 0.1em;
+        margin-right: 1em;
+    }
+    .firstbutton
+    {
+        background: none;
+        border: none;
+        padding: 0.2em;
+    }
+    .fa-bars
+    {
+        font-size: 3em;
+    }
+    .menu:focus ~ .label
+    {   
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background: #000000;
+        opacity: 0.9;
+        border: black 2px solid;
+        width: 100%;
+        height: 18em;
+    }
+
+
+    /* article section 1 */
+    .awe
+    {
+        font-size: 2.6em;
+        text-align: center;
+        margin-top: 5em;
+        margin-bottom: 2em;
+    }
+    .text_feuille-1
+    {
+        margin-bottom: 5em;
+    }
+    /* feuille 2*/
+    .feuille_2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: auto;
+        background: none;
+        height: fit-content;
+        margin-top: -1px;
+        /* flex-wrap: wrap; */
+    }
+    .feuille_2 article
+    {
+        margin-bottom: -2px;
+        padding: 0;
+        height: 45em;
+        justify-content: space-evenly;
+        /* margin-top: -55px; */
+        background: url("img/about-bg.jpg") no-repeat center;
+    }
+    .feuille_2 br, .feuille_4 br
+    {
+        display: none;
+    }
+
+    .h_icones
+    {
+        border-bottom: #fafafa 2px solid;
+        padding-bottom: 2em;
+    }
+    .feuille_2 article p
+    {
+        padding: 0;
+        border-top: none;
+    }
+    
+    /* feuille 3 */
+    .feuille_3
+    {
+        height: 70em;    
+    }
+    
+    .img_mosaique
+    {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin-left: 0;
+    }
+    .mosaique
+    {
+        width: 15em;
+        margin-bottom: 1em;
+        margin-right: 2em;
+        
+        /* height: auto; */
+        /* justify-content: center; */
+    }
+    .mosaique:first-child
+    {
+        margin-top: 1em;
+    }
+    
+    .d
+    {
+        position: relative;
+        left: 4em;
+    }
+    .g
+    {
+        position: relative;
+        right: 4em;
+        
+    }
+    .secondbutton
+    {
+        display: block;
+        border: none;
+        background: none;
+        position: relative;
+        bottom: 33em;
+        left: 22em;
+    }
+    .secondbutton .fa-bars
+    {
+        color: #000000;
+    }
+
+    .galery
+    {
+        display: none;
+    }
+    .secondbutton:focus ~ .galery
+    {
+        display: block;
+        width: 100%;
+        margin-left: -2.1em;
+    }
+    .secondbutton:focus ~ .galery div
+    {
+        padding-top: 10em;
+    }
+    .secondbutton:focus ~ .img_mosaique
+    {
+        display: none;
+    }
+    /* feuille 4 */
+    .feuille_4 p
+    {
+        padding: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    /* feuille 5 */
+    .our_blog
+    {
+        opacity: none;
+    }
+}
