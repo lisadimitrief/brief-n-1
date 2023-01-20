@@ -501,7 +501,7 @@ footer
 
 @media screen 
 {
-    .menu, .secondbutton
+    .menu, .secondbutton, .thirdbutton
     {
         display: none;
     }   
@@ -657,6 +657,10 @@ footer
     {
         display: none;
     }
+    .our_blog
+    {
+        display: none;
+    }
     .secondbutton:focus ~ .galery
     {
         display: block;
@@ -679,8 +683,83 @@ footer
         margin-right: 1em;
     }
     /* feuille 5 */
+    .feuille_5
+    {
+        flex-direction: column;
+        background-position: center;
+    }
+    .thirdbutton
+    {
+        display: block;
+        border: none;
+        background: none;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .thirdbutton:focus ~ .our_blog
+    {
+        display: block;
+        /* margin-top: 5em; */
+    }
+    .thirdbutton:focus ~ .lorem
+    {
+        display: none;
+    }
     .our_blog
     {
-        opacity: none;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
     }
-}
+    .blog
+    {
+        padding-top: 3em;
+    }
+    .lorem
+    {
+        width: 100%;
+    }
+    .article
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .lorem img
+    {
+        width: 22em;
+    }
+    .lorem .text
+    {
+        width: 20em;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 8em;
+    }
+    .feuille_6
+    {
+        height: 30em;
+        margin-top: -1px;
+    }
+    .feuille_6 div
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .feuille_6 div h3
+    {
+        border: none;
+        width: 100%;
+    }
+    .feuille_6 div p
+    {
+        width: 90%;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        text-align: justify;
+    }
+
+    /* FOOTER ENFIN */
+    .mapouter  
+    {   
+        height: 20em;
+    }
+}   
